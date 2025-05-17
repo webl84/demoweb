@@ -1,0 +1,150 @@
+@media(max-width:1366px) {
+    /*header*/
+
+ header .nav ul {
+     gap: 50px
+ } 
+
+} 
+@media (max-width: 1200px) {
+    header .nav ul {
+        gap: 20px
+    } 
+} 
+@media (max-width: 991px) {
+    header .nav ul {
+        display: none
+    } 
+    .seccion-banner {
+        display
+    } 
+    header .container {
+        max-width: 100%; 
+        padding: 15px 25px
+    } 
+    header .top {
+     height: 10px
+    } 
+    body .container{
+        max-width: 100%; 
+        padding: 15px 25px
+    } 
+    .image img {
+        width: 100%
+    } 
+    .titulo{
+        padding-right: 50px; 
+        padding-left: 30px
+    } 
+    .titulo h2, .titulos h4, .titulos-1 h5,.testimonios h6, .titulos-3 h6 {
+        font-size: 38px; 
+        line-height:42px;
+    } 
+    .metodologia h3{
+        font-size: 38px;
+        line-height: 42px;
+    } 
+    .item-textos strong {
+        font-size: 28px; 
+        line-height: 32px
+    } 
+    .item-textos p  {
+        font-size: 13px
+    } 
+    .item-textos{ 
+    padding: 20px 20px;
+    } 
+    .videos{
+        display: none
+    } 
+    .desktop {
+        display: none !important
+    } 
+    .tablet {
+        display: block !important
+    }
+    
+        
+     
+   
+} 
+@media (max-width: 767px){ 
+    .tablet {
+        display: none !important
+    } 
+    .movil {
+        display:block !important
+    }
+    .info-contactos {
+        flex-wrap: wrap;  
+        margin-bottom: 15px
+    }  .iconos { 
+        margin-top: 20px;
+        flex-direction: row; 
+        gap:20px
+
+    } 
+    form {
+        grid-template-columns: 1fr !important
+    }
+    form .mb-3:nth-child(5) {
+        grid-column: auto
+    }
+    
+    .titulo{ 
+        padding-top: 30px
+    }  
+    .item {
+        max-width: 100%;  margin-bottom: 25px
+    } 
+    .libro .row div:nth-child(1){
+        order:1
+    } 
+    .libro .row div:nth-child(2){
+        order:3
+    } 
+    .libro .row div:nth-child(3){
+        order: 2
+    } .textos-2 {
+         padding: 30px 0px }
+    body .libro .container .textos-2 strong {
+     padding-right: 0px
+    } 
+     
+    body .libro .container .textos-2 P{
+        padding-right: 0px
+    } 
+    .libro .container {
+        padding-bottom: 0px
+    } 
+    .libro {
+        padding-bottom: 0px
+    } 
+    footer ul {
+        padding: 0
+    } 
+    
+    
+} 
+@media(max-width: 480px) {
+    .titulo h2, .titulos h4, .titulos-1 h5,.testimonios h6, .titulos-3 h6 {
+        font-size: 32px; 
+    line-height: 35px
+ } 
+ .titulo {
+    padding-right:0px; 
+    padding-left: 0px
+ } 
+ .metodologia h3 {
+    font-size: 32px; 
+    line-height: 35px
+ } 
+    .item-box img {
+        height: 340px
+    } 
+    .item-box{
+        margin-bottom: 30px }
+}
+ 
+
+
