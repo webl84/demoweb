@@ -155,11 +155,10 @@
     .logo img {
         max-width: 80px
     } 
-.textos-banner a{
-    max-width: 150px; 
-    height:40px;
-
-}
+    .textos-banner a{
+        max-width: 150px; 
+        height:40px;
+    }
     
 }
 @media(max-width: 480px) {
