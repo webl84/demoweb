@@ -139,7 +139,8 @@
     
 } 
 @media (max-width: 600px) { 
-    body .seccion-banner {
+    body .seccion-banner { 
+            padding-top: 80px;
         align-items: flex-start !important
     } 
     .textos-banner h1{
@@ -150,7 +151,15 @@
     } 
     .barra { 
          font-size: 18px
-    }
+    } 
+    .logo img {
+        max-width: 80px
+    } 
+.textos-banner a{
+    max-width: 150px; 
+    height:40px;
+
+}
     
 }
 @media(max-width: 480px) {
