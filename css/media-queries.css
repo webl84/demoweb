@@ -4,6 +4,18 @@
  header .nav ul {
      gap: 50px
  } 
+ .textos-banner h1 {
+    font-size: 35px; 
+    padding-right: 50px
+ } 
+ .textos-banner {
+    max-width: 600px
+ }
+ .textos-banner span {
+    font-size: 20px
+ } .textos-banner a {
+    width: 200px;
+    height:  45px }
 
 } 
 @media (max-width: 1200px) {
@@ -126,6 +138,21 @@
     
     
 } 
+@media (max-width: 600px) { 
+    body .seccion-banner {
+        align-items: flex-start !important
+    } 
+    .textos-banner h1{
+         font-size: 25px
+    } 
+    .textos-banner {
+        padding-top: 25px
+    } 
+    .barra { 
+         font-size: 18px
+    }
+    
+}
 @media(max-width: 480px) {
     .titulo h2, .titulos h4, .titulos-1 h5,.testimonios h6, .titulos-3 h6 {
         font-size: 32px; 
