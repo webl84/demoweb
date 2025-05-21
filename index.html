@@ -10,10 +10,47 @@
     <link rel="stylesheet" href="css/estilos.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="css/media-queries.css">
-    <link rel="stylesheet" href="fontss/stylesheet.css" 
+    <link rel="stylesheet" href="fonts/stylesheet.css" 
 </head>
 <body>
-    <div class="containess">
+    <div class="sidebar-movil" id="sidebar-movil">
+        <div class="item-movil">
+        <div class="close-sidebar"> <i class="fa fa-close"></i> </div>
+           
+       <div class="item-menu">
+           
+        
+        <div class="logo-movil-menu">
+       <img src="logo.png">
+      </div>
+     <div class="menu-movil"><ul id="menu-menu-movil" class="menu-movil-lista">
+        <li><a href="#sobre-mi" class="ancla">Sobre mi</a></li>
+        <li><a href="#metodologia" class="ancla">metodologia</a></li>
+        <li><a href="#servicios" class="ancla">servicios</a></li>
+        <li><a href="#testimonios" class="ancla">testimonios</a></li>
+        <li><a href="#libros" class="ancla">libros</a></li>
+        <li><a href="#contactos" class="ancla">contactos</a></li>
+</ul></div>		</div>
+   <div class="redes"> 
+       <div class="telefonos">
+                   <a style="transition: opacity 0.5s; opacity: 1;">Tel: +511 494-5857</a>
+               </div>
+       <strong>Redes sociales</strong>
+       <div class="info-movil">
+           
+                             <a aria-label="Red social Facebook" class="button" href="http://www.facebook.com" target="_blank" style="transition: opacity 0.5s 0.1s; opacity: 1;"><i class="fa fa-facebook"></i></a>
+            
+                            <a aria-label="Red social Instagram" class="button" href="https://www.instagram.com/" target="_blank" style="transition: opacity 0.5s 0.2s; opacity: 1;"><i class="fa fa-instagram"></i></a>
+            
+                       <a aria-label="linkedin" class="button" href="http://linkedin.com" target="_blank" style="transition: opacity 0.5s 0.3s; opacity: 1;"><i class="fa fa-linkedin-in"></i></a>
+                       </div>
+   </div>
+    
+</div>
+
+
+</div>
+    <div class="containers">
         
     </div> 
     <header> 
@@ -24,14 +61,16 @@
             </div> 
             <div class="nav">
                 <ul>
-                    <li><a href="">Sobre mi</a></li>
-                    <li><a href="">metodologia</a></li>
-                    <li><a href="">servicios</a></li>
-                    <li><a href="">testimonios</a></li>
-                    <li><a href="">libros</a></li>
-                    <li><a href="">contactoss</a></li>
-                </ul>
-            </div>
+                    <li><a href="#sobre-mi" class="ancla">Sobre mi</a></li>
+                    <li><a href="#metodologia" class="ancla">metodologia</a></li>
+                    <li><a href="#servicios" class="ancla">servicios</a></li>
+                    <li><a href="#testimonios" class="ancla">testimonios</a></li>
+                    <li><a href="#libros" class="ancla">libros</a></li>
+                    <li><a href="#contactos" class="ancla">contactos</a></li>
+                </ul>  
+<a class="sidebar-toggle open-sidebar" aria-label="abrir menu">
+					  	<i class="fas fa-bars"></i>
+					</a>            </div>
         </div>
     </header> 
     <div class="seccion-banner">
@@ -54,7 +93,7 @@
              <p> Transforma tu salud, transforma tu vida</p>
         </div>
     </div> 
-    <div class="seccion-info"> 
+    <div class="seccion-info" id="sobre-mi" style=" scroll-margin-top: 136px;"> 
         <div class="container">
             <div class="row">
                 <div class="col-md-5" data-aos="fade-right">
@@ -80,7 +119,7 @@
             </div>
         </div>
     </div>
-    <div class="metodologia">
+    <div class="metodologia" id="metodologia" style=" scroll-margin-top: 136px;">
          <div class="container">
             <div class="row">
                 <div class="col-md-12" data-aos="fade-up">
@@ -113,16 +152,16 @@
          </div>
         </div>
     </div> 
-    <div class="servicios"> 
+    <div class="servicios" id="servicios" style=" scroll-margin-top: 136px;"> 
         <div class="container">
              <div class="row">
                 <div class="col-md-12">
                     <div class="titulos">
                         <strong> servicios principales</strong> 
-                        <h4>¿como voy ayudarte?</h4>
+                        <h4>¿Cómo voy ayudarte?</h4>
                     </div>
                 </div>  
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up">
                     <div class="item-box">
                     <div class="item-textos">
                         <strong>Detección temprana 
@@ -176,7 +215,7 @@
              </div>
         </div>
     </div> 
-    <div class="libro">
+    <div class="libro" id="libros" style=" scroll-margin-top: 136px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12"> 
@@ -203,14 +242,14 @@
             </div>
         </div>
     </div> 
-    <div class="testimonios"> 
+    <div class="testimonios" id="testimonios" style=" scroll-margin-top: 136px;"> 
         <div class="container"> 
             <div class="row">
                 <div class="titulos-2">
                      <strong>
                         voces de confianza
                      </strong> 
-                     <h6>Testimonios de pacienetes</h6>
+                     <h6>Testimonios de pacientes</h6>
                 </div> 
 
                 <div class="videos">
@@ -218,19 +257,62 @@
                     <div id="loader">Cargando videos...</div>
 <div class="carousel" id="carousel"></div>
                 </div>
+            </div> 
+            <div class="container p-4 bg-light acordeon">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item rounded-3 border-0 shadow mb-2">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button border-bottom collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                     Testimonio 1
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="iframe-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TDOiLrKk39s?si=6zJaB5d5gNiDtNbR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div></div>
+                  </div>
+                </div>
+                <div class="accordion-item rounded-3 border-0 shadow mb-2">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button border-bottom collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                       Testimonio 2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="iframe-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TDOiLrKk39s?si=6zJaB5d5gNiDtNbR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item rounded-3 border-0 mb-2 shadow">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button border-bottom collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Testimonio 3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="iframe-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TDOiLrKk39s?si=6zJaB5d5gNiDtNbR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
-    </div> 
-    <div class="contactos">
+    </div> </div>
+    <div class="contactos"  id="contactos" style="scroll-margin-top: 136px;">
          <div class="container">
              <div class="row"> 
                 <div class="col-md-12">
                     <div class="info-contactos">
                         <div class="titulos-3">
                             <strong>
-                                la mejor medicina es la prevencion
+                                la mejor medicina es la prevención
                             </strong> 
-                            <h6>Contactame estoy aqui para asistirte</h6>
+                            <h6><strong>Contáctame </strong>estoy aquí para asistirte</h6>
                         </div> 
                         <div class="redes"> 
                             <div class="iconos"> 
@@ -258,16 +340,16 @@
                         <!-- Correo Electrónico -->
                         <div class="mb-3">
                           <label for="correo" class="form-label">Correo Electrónico</label>
-                          <input type="email" class="form-control" id="correo" name="correo"  placeholder="correo">
+                          <input type="email" class="form-control" id="correo" name="correo"  placeholder="Correo electrónico">
                         </div>
                     
                         <div class="mb-3">
-                            <label for="correo" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="correo" name="correo" required>
+                            <label for="correo" class="form-label">Ciudad de domicilio</label>
+                            <input type="email" class="form-control" id="correo" name="correo" required placeholder="Lima,Peru">
                         </div> 
                         <div class="mb-3">
-                            <label for="correo" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="correo" name="correo" required>
+                            <label for="correo" class="form-label">¿Cuál es el objetivo de salud que buscas lograr?</label>
+                            <input type="email" class="form-control" id="correo" name="correo" required placeholder="Prevencion del cancer">
                           </div>
 
                           <!---
@@ -319,7 +401,7 @@
                         <div class="link-copy">
                         <ul>
                             <li><a href="">Terminos y condiciones</a></li>
-                            <li><a href="">sPoliticas de privacidad</a></li>
+                            <li><a href="">Politicas de privacidad</a></li>
                         </ul> 
                     </div> 
                         <div class="copy-text">
@@ -444,6 +526,91 @@
   duration: 800, // Duración de la animación (opcional)
   offset: 120, // Cuándo comenzar (en px desde el borde inferior)
 });
-      </script>
+      </script> 
+      <!-- Asegúrate de incluir jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    const offsetHeader = 136; // Altura del header fijo
+
+    $('.ancla').on('click', function (e) {
+      e.preventDefault();
+
+      const destino = $(this).attr('href');
+      const offsetTop = $(destino).offset().top - offsetHeader;
+
+      $('html, body').animate({
+        scrollTop: offsetTop
+      }, 1000);
+    }); 
+    // Scroll dinámico para activar clase
+    $(window).on('scroll', function () {
+      const scrollPos = $(document).scrollTop() + offsetHeader + 10;
+
+      $('.ancla').each(function () {
+        const currLink = $(this);
+        const refElement = $(currLink.attr('href'));
+
+        if (refElement.position().top <= scrollPos &&
+            refElement.position().top + refElement.height() > scrollPos) {
+          $('.ancla').removeClass('active');
+          currLink.addClass('active');
+        }
+      });
+    });
+  });
+ 
+
+</script>
+ <script>$(document).ready(function () {
+    // Abrir el sidebar móvil
+    $('.open-sidebar').click(function () {
+      $('body').css('overflow', 'hidden'); // Evita el scroll en el fondo
+      $('#sidebar-movil').addClass('visible'); // Muestra el sidebar
+    });
+  
+    // Cerrar el sidebar móvil
+    $('.close-sidebar').click(function () {
+      closeSidebar(); // Cierra el sidebar
+    });
+  
+    // Manejo del clic en los enlaces del menú móvil
+    $('#sidebar-movil  li a').click(function (e) {
+      e.preventDefault(); // Previene la acción predeterminada del enlace
+  
+      var targetHash = this.hash; // Obtén el hash del enlace (#nosotros, etc.)
+      var target = $(targetHash); // Busca el elemento destino basado en el hash
+  
+      if (target.length) {
+        // Cierra el sidebar inmediatamente
+        closeSidebar();
+  
+        // Espera un momento para que el sidebar termine de cerrarse antes de hacer el desplazamiento
+        setTimeout(function () {
+          // Calcula la altura del encabezado fijo para ajustar el desplazamiento
+          var headerHeight = $('#fixed-header').outerHeight() || 0;
+  
+          // Realiza el desplazamiento suave
+          $('html, body').animate(
+            {
+              scrollTop: target.offset().top - headerHeight, // Calcula la posición con el offset
+            },
+            800, // Duración del desplazamiento en milisegundos
+            'swing' // Tipo de animación
+          );
+        }, 300); // Ajusta este tiempo si es necesario (coincide con la duración de la animación de tu sidebar)
+      } else {
+        console.warn('El destino del desplazamiento no existe:', targetHash);
+      }
+    });
+  
+    // Función para cerrar el sidebar
+    function closeSidebar() {
+      $('#sidebar-movil').removeClass('visible'); // Oculta el sidebar
+      $('body').css('overflow', 'visible'); // Permite el scroll en el fondo
+    }
+  });</script> 
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
