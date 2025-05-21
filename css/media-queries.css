@@ -1,5 +1,5 @@
 body,html{
-    overflow-x: hidden !important;
+    overflow-x: hidden!important
 } 
 
 @media(max-width:1366px) {
@@ -158,10 +158,13 @@ body,html{
     
     
 } 
-@media (max-width: 600px) {  
-    footer ul {  
-        display: block;
-        columns: 2
+@media (max-width: 600px) { 
+    .servicios .container {
+
+     padding::15px
+    }
+    .libro a {
+        font-siZe: 14px
     }
     body .seccion-banner { 
             padding-top: 80px;
