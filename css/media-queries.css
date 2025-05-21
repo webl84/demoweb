@@ -158,7 +158,10 @@ body,html{
     
     
 } 
-@media (max-width: 600px) { 
+@media (max-width: 600px) {  
+    footer ul {
+        columns: 2
+    }
     body .seccion-banner { 
             padding-top: 80px;
         align-items: flex-start !important
