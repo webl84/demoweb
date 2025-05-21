@@ -159,7 +159,8 @@ body,html{
     
 } 
 @media (max-width: 600px) {  
-    footer ul {
+    footer ul {  
+        display: block;
         columns: 2
     }
     body .seccion-banner { 
